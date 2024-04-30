@@ -1,8 +1,14 @@
 #!/usr/bin/python3
 """
-0-pascal_triangle
+This module defines a function that generates Pascal's Triangle.
 """
+
+
 def pascal_triangle(n):
+    """
+    Generate Pascal's triangle of height n.
+    Returns a list of lists of integers representing the triangle.
+    """
     if n <= 0:
         return []
 
